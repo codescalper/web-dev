@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ header, main, footer {
+    width: 80%;
+    text-align: center;
+ }
+/* Why i need to speciy header main and footer even though it lies in body */
+
+
+/*  
+ That's a great question! Yes, header, main, and footer are child elements of the body, but in this case, you want to set their width and text-alignment properties individually, so you need to specify them.
+
+By specifying width: 80% for header, main, and footer, you're setting the width of each of these elements to 80% of the parent element's width (i.e. the body element).
+
+And by specifying text-align: center, you're aligning the text content of each of these elements to the center.
+
+By setting these properties for header, main, and footer, you're ensuring that the width and alignment of these elements will be independent of their parent element. */
