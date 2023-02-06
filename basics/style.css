@@ -18,3 +18,25 @@ By specifying width: 80% for header, main, and footer, you're setting the width 
 And by specifying text-align: center, you're aligning the text content of each of these elements to the center.
 
 By setting these properties for header, main, and footer, you're ensuring that the width and alignment of these elements will be independent of their parent element. */
+
+/* Css properties for form element */
+
+input{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+}
+button{
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 13px 13px 13px 13px;
+}
+button:hover{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
