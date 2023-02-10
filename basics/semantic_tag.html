@@ -55,9 +55,57 @@
             <label for="confirm_pass">Confirm Password: </label><br>
             <input type="password" name="confirm_pass" id="confirm_pass">
         </div>
-        <div>
-            <button type="submit">Submit</button>
-        </div>
+
+<!-- Here i have added radio buttons for HTML -->
+    <fieldset id="languages">
+        <label for="">
+            <input type="radio" name="languages" id="" >Java
+        </label>
+        <label for="">
+            <input type="radio" name="languages" id="" checked>Rust
+        </label>
+        <label for="">
+            <input type="radio" name="languages" id="">Javascript
+        </label>
+    </fieldset>
+
+    <fieldset id="Domain">
+        <label >
+            <input type="radio" value="Blockchain" name="Domain" id="" checked >Blockchain
+        </label>
+        <label >
+            <input type="radio" value="Cyber" name="Domain" id="" checked>Cyber Security
+        </label>
+        <label >
+            <input type="radio" value="IO" name="Domain" id="">IOT
+        </label>
+
+
+        <!-- Using some advanced concepts -->
+
+        
+
+
+    </fieldset>
+
+    <label for="Salary">Salary in lpa
+        <input type="range" value="Salary" id="" min="10" max="45" name="Salary" value="25" oninput="this.nextElementSibling.value=this.value">
+        <output>25</output>
+    </label>
+    <label for="work_location">Prefered working location
+        <input id="work_location" name="work_location" list="location">
+        <datalist id="location">
+            <option value="Onsite">Onsite</option>
+            <option value="Remote">Remote</option>
+            
+        </datalist>
+    </label>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+
+    
+
     </form>
         
     </main>
