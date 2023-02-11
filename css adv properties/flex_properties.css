@@ -1,0 +1,16 @@
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:flex-end; /* align-items:flex-end;The alignment on the cross-axis is done with the help of this property.
+     Let’s change the value for it to ‘flex-end’.The term ‘end’ refers to the right side of the page as the
+      left side is seen as the beginning.   */
+    flex-wrap: wrap; 
+    
+}
