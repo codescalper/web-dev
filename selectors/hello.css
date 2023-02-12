@@ -1,0 +1,32 @@
+p::selection{
+    background-color: yellow;
+    color: red;
+}
+
+a{
+    color: yellow;
+    background-color: black;
+}
+
+a:visited{
+    background-color: aqua;
+    color: black;
+}
+
+a:hover{
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+.textual{
+    border: 1px none ;
+    padding: 10px;
+
+}
+.textual:hover{
+    box-shadow: 10px 0px 25px black;
+  
+}
