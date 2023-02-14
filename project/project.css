@@ -1,0 +1,49 @@
+body{
+    background-color: darkcyan;
+    font-family: 'Poppins';
+    margin: 10 10 10 10;
+
+}
+ 
+/* code for displaying the image in centre */
+
+header > img{
+    display: block;  /*To convert image to block from inline*/  
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section{
+    display: flex;
+
+}
+
+article{
+    flex: 1;
+    gap: 30%;
+}
+
+h1,h2{
+    color: white;
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    background-color: violet;
+    border-radius: 5%;
+}
+
+footer div{
+    flex: 1;
+}
